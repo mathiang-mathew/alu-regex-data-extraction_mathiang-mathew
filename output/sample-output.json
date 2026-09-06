@@ -1,0 +1,503 @@
+{
+  "meta": {
+    "source_file": "input/raw-text.txt",
+    "generated_at": "2026-09-06T12:01:55.632890+00:00",
+    "total_tickets_found": 15,
+    "tickets_flagged_unsafe": 3,
+    "tickets_flagged_structural_anomaly": 1
+  },
+  "tickets": [
+    {
+      "ticket_number": 4501,
+      "category": "Tuition Payment",
+      "status": "Open",
+      "requester": "Kuot Deng <k.deng@alueducation.com>",
+      "submitted_at": "2026-08-12 14:22",
+      "flagged_unsafe": false,
+      "unsafe_reasons": [],
+      "extracted": {
+        "emails": [
+          {
+            "masked": "k****g@alueducation.com",
+            "valid": true,
+            "alu_category": "official",
+            "suspicious_alu_lookalike": false
+          }
+        ],
+        "credit_cards": [],
+        "hashtags": [
+          {
+            "value": "#2",
+            "valid": false
+          },
+          {
+            "value": "#TuitionIssue",
+            "valid": true
+          },
+          {
+            "value": "#Urgent",
+            "valid": true
+          }
+        ],
+        "currency_amounts": [
+          {
+            "value": "$1,000",
+            "valid": true
+          }
+        ]
+      }
+    },
+    {
+      "ticket_number": 4502,
+      "category": "Tuition Payment",
+      "status": "Open",
+      "requester": "Nyandeng Machar <parent.machar@gmail.com>",
+      "submitted_at": "2026-08-12 15:03",
+      "flagged_unsafe": false,
+      "unsafe_reasons": [],
+      "extracted": {
+        "emails": [
+          {
+            "masked": "p***********r@gmail.com",
+            "valid": true,
+            "alu_category": null,
+            "suspicious_alu_lookalike": false
+          }
+        ],
+        "credit_cards": [
+          {
+            "masked": "************1111",
+            "valid": true
+          }
+        ],
+        "hashtags": [
+          {
+            "value": "#TuitionIssue",
+            "valid": true
+          },
+          {
+            "value": "#NeedHelp",
+            "valid": true
+          }
+        ],
+        "currency_amounts": [
+          {
+            "value": "$1,000",
+            "valid": true
+          }
+        ]
+      }
+    },
+    {
+      "ticket_number": 4503,
+      "category": "Module Re-sit Fee",
+      "status": "Closed",
+      "requester": "J. Otieno <j.otieno23@gmail.com>",
+      "submitted_at": "2026-08-12 16:47",
+      "flagged_unsafe": false,
+      "unsafe_reasons": [],
+      "extracted": {
+        "emails": [
+          {
+            "masked": "j********3@gmail.com",
+            "valid": true,
+            "alu_category": null,
+            "suspicious_alu_lookalike": false
+          }
+        ],
+        "credit_cards": [
+          {
+            "masked": "************3457",
+            "valid": false
+          }
+        ],
+        "hashtags": [
+          {
+            "value": "#ResitFee",
+            "valid": true
+          },
+          {
+            "value": "#please",
+            "valid": true
+          }
+        ],
+        "currency_amounts": [
+          {
+            "value": "USD 40..00",
+            "valid": false
+          }
+        ]
+      }
+    },
+    {
+      "ticket_number": 4504,
+      "category": "Insurance Payment",
+      "status": "Open",
+      "requester": "Aisha Bello <a.bello@alueducation.com>",
+      "submitted_at": "2026-08-12 18:10",
+      "flagged_unsafe": false,
+      "unsafe_reasons": [],
+      "extracted": {
+        "emails": [
+          {
+            "masked": "a*****o@alueducation.com",
+            "valid": true,
+            "alu_category": "official",
+            "suspicious_alu_lookalike": false
+          }
+        ],
+        "credit_cards": [
+          {
+            "masked": "***********0005",
+            "valid": true
+          }
+        ],
+        "hashtags": [
+          {
+            "value": "#InsuranceIssue",
+            "valid": true
+          }
+        ],
+        "currency_amounts": [
+          {
+            "value": "$150.00",
+            "valid": true
+          }
+        ]
+      }
+    },
+    {
+      "ticket_number": 4505,
+      "category": "IT Security Report",
+      "status": "Open",
+      "requester": "Grace Nyirahabimana <g.nyira@alueducation.com>",
+      "submitted_at": "2026-08-13 08:02",
+      "flagged_unsafe": true,
+      "unsafe_reasons": [
+        "script_tag"
+      ],
+      "extracted": null
+    },
+    {
+      "ticket_number": 4506,
+      "category": "IT Security Report",
+      "status": "Open",
+      "requester": "Brian Otieno <b.otieno@alueducation.com>",
+      "submitted_at": "2026-08-13 09:41",
+      "flagged_unsafe": true,
+      "unsafe_reasons": [
+        "sql_injection"
+      ],
+      "extracted": null
+    },
+    {
+      "ticket_number": 4507,
+      "category": "Tuition Payment",
+      "status": "Resolved",
+      "requester": "Nyawuor Aleu <n.aleu@alueducation.com>",
+      "submitted_at": "2026-08-13 11:15",
+      "flagged_unsafe": false,
+      "unsafe_reasons": [],
+      "extracted": {
+        "emails": [
+          {
+            "masked": "n****u@alueducation.com",
+            "valid": true,
+            "alu_category": "official",
+            "suspicious_alu_lookalike": false
+          }
+        ],
+        "credit_cards": [
+          {
+            "masked": "************0004",
+            "valid": true
+          }
+        ],
+        "hashtags": [
+          {
+            "value": "#GreatService",
+            "valid": true
+          }
+        ],
+        "currency_amounts": [
+          {
+            "value": "USD 1,000.00",
+            "valid": true
+          }
+        ]
+      }
+    },
+    {
+      "ticket_number": 4508,
+      "category": "Immersion Program Deposit",
+      "status": "Open",
+      "requester": "Deng Akum <d.akum@alumni.alueducation.com>",
+      "submitted_at": "2026-08-13 10:05",
+      "flagged_unsafe": false,
+      "unsafe_reasons": [],
+      "extracted": {
+        "emails": [
+          {
+            "masked": "d****m@alumni.alueducation.com",
+            "valid": true,
+            "alu_category": "alumni",
+            "suspicious_alu_lookalike": false
+          }
+        ],
+        "credit_cards": [],
+        "hashtags": [
+          {
+            "value": "#AlumniSupport",
+            "valid": true
+          },
+          {
+            "value": "#ImmersionProgram",
+            "valid": true
+          }
+        ],
+        "currency_amounts": [
+          {
+            "value": "$200",
+            "valid": true
+          }
+        ]
+      }
+    },
+    {
+      "ticket_number": 4509,
+      "category": "Immersion Program Deposit",
+      "status": "Open",
+      "requester": "Immersion Desk <intl.support@si.alueducation.com>",
+      "submitted_at": "2026-08-13 10:40",
+      "flagged_unsafe": false,
+      "unsafe_reasons": [],
+      "extracted": {
+        "emails": [
+          {
+            "masked": "i**********t@si.alueducation.com",
+            "valid": true,
+            "alu_category": "si",
+            "suspicious_alu_lookalike": false
+          },
+          {
+            "masked": "p**********s@yahoo.com",
+            "valid": true,
+            "alu_category": null,
+            "suspicious_alu_lookalike": false
+          }
+        ],
+        "credit_cards": [],
+        "hashtags": [
+          {
+            "value": "#CrossBorder",
+            "valid": true
+          },
+          {
+            "value": "#ImmersionProgram",
+            "valid": true
+          }
+        ],
+        "currency_amounts": [
+          {
+            "value": "USD 250.00",
+            "valid": true
+          }
+        ]
+      }
+    },
+    {
+      "ticket_number": 4510,
+      "category": "IT Security Report",
+      "status": "Open",
+      "requester": "Aline Uwase <a.uwase@alueducation.com>",
+      "submitted_at": "2026-08-13 12:15",
+      "flagged_unsafe": false,
+      "unsafe_reasons": [],
+      "extracted": {
+        "emails": [
+          {
+            "masked": "a*****e@alueducation.com",
+            "valid": true,
+            "alu_category": "official",
+            "suspicious_alu_lookalike": false
+          },
+          {
+            "masked": "n*****y@alueducation.com.verify-now.net",
+            "valid": true,
+            "alu_category": null,
+            "suspicious_alu_lookalike": true
+          }
+        ],
+        "credit_cards": [],
+        "hashtags": [
+          {
+            "value": "#PhishingAlert",
+            "valid": true
+          },
+          {
+            "value": "#TuitionRefund",
+            "valid": true
+          }
+        ],
+        "currency_amounts": []
+      }
+    },
+    {
+      "ticket_number": 4511,
+      "category": "Tuition Payment",
+      "status": "Open",
+      "requester": "Anonymous <ticket-form@alueducation.com>",
+      "submitted_at": "2026-08-14 08:15",
+      "flagged_unsafe": false,
+      "unsafe_reasons": [],
+      "extracted": {
+        "emails": [
+          {
+            "masked": "t*********m@alueducation.com",
+            "valid": true,
+            "alu_category": "official",
+            "suspicious_alu_lookalike": false
+          }
+        ],
+        "credit_cards": [],
+        "hashtags": [],
+        "currency_amounts": []
+      }
+    },
+    {
+      "ticket_number": 9999,
+      "category": "Tuition Payment",
+      "status": "Approved",
+      "requester": "System Admin <admin@alueducation.com>",
+      "submitted_at": "2099-01-01 00:00",
+      "flagged_unsafe": true,
+      "unsafe_reasons": [
+        "structural_anomaly_suspected_header_injection"
+      ],
+      "extracted": null
+    },
+    {
+      "ticket_number": 4512,
+      "category": "Campus Services",
+      "status": "Closed",
+      "requester": "R. Mutuku <r.mutuku@gmail.com>",
+      "submitted_at": "2026-08-13 13:29",
+      "flagged_unsafe": false,
+      "unsafe_reasons": [],
+      "extracted": {
+        "emails": [
+          {
+            "masked": "r******u@gmail.com",
+            "valid": true,
+            "alu_category": null,
+            "suspicious_alu_lookalike": false
+          }
+        ],
+        "credit_cards": [],
+        "hashtags": [
+          {
+            "value": "#ThisHashtagIsWayTooLongToBeRealisticAndShouldFailValidationChecks",
+            "valid": false
+          }
+        ],
+        "currency_amounts": [
+          {
+            "value": "500 RWF",
+            "valid": true
+          }
+        ]
+      }
+    },
+    {
+      "ticket_number": 4513,
+      "category": "Insurance Payment",
+      "status": "Open",
+      "requester": "Florence Wanjiru <f.wanjiru@gmail.com>",
+      "submitted_at": "2026-08-13 17:02",
+      "flagged_unsafe": false,
+      "unsafe_reasons": [],
+      "extracted": {
+        "emails": [
+          {
+            "masked": "f*******u@gmail.com",
+            "valid": true,
+            "alu_category": null,
+            "suspicious_alu_lookalike": false
+          }
+        ],
+        "credit_cards": [
+          {
+            "masked": "************4441",
+            "valid": false
+          }
+        ],
+        "hashtags": [
+          {
+            "value": "#PaymentIssue",
+            "valid": true
+          },
+          {
+            "value": "#InsuranceIssue",
+            "valid": true
+          }
+        ],
+        "currency_amounts": [
+          {
+            "value": "KES 15,000",
+            "valid": true
+          }
+        ]
+      }
+    },
+    {
+      "ticket_number": 4514,
+      "category": "Tuition Payment",
+      "status": "Resolved",
+      "requester": "James Lomuro <j.lomuro@alueducation.com>",
+      "submitted_at": "2026-08-13 19:50",
+      "flagged_unsafe": false,
+      "unsafe_reasons": [],
+      "extracted": {
+        "emails": [
+          {
+            "masked": "j******o@alueducation.com",
+            "valid": true,
+            "alu_category": "official",
+            "suspicious_alu_lookalike": false
+          }
+        ],
+        "credit_cards": [],
+        "hashtags": [
+          {
+            "value": "#HappyStudent",
+            "valid": true
+          },
+          {
+            "value": "#TuitionPaid",
+            "valid": true
+          }
+        ],
+        "currency_amounts": [
+          {
+            "value": "1,000 USD",
+            "valid": true
+          }
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "emails_found": 14,
+    "emails_valid": 14,
+    "emails_alu_official": 6,
+    "emails_alu_alumni": 1,
+    "emails_alu_si": 1,
+    "emails_suspicious_alu_lookalike": 1,
+    "credit_cards_found": 5,
+    "credit_cards_valid": 3,
+    "hashtags_found": 20,
+    "hashtags_valid": 18,
+    "currency_amounts_found": 10,
+    "currency_amounts_valid": 9
+  }
+}
